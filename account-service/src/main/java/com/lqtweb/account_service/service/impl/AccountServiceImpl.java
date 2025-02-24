@@ -8,16 +8,14 @@ import com.lqtweb.account_service.entity.Account;
 import com.lqtweb.account_service.mapper.AccountMapper;
 import com.lqtweb.account_service.repository.AccountRepository;
 import com.lqtweb.account_service.service.AccountService;
+import jakarta.transaction.Transactional;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
