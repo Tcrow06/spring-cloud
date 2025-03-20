@@ -1,10 +1,10 @@
-package com.lqtweb.account_service;
+package com.example.monitor_admin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AccountServiceApplicationTests {
+class MonitorAdminApplicationTests {
 
 	@Test
 	void contextLoads() {
