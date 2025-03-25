@@ -5,60 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07185343-1dcd-4015-916a-d66b672e2609" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/client/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/client/StatisticService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/client/impl/NotificationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/client/impl/StatisticServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/dto/MessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/dto/StatisticDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/java/com/lqtweb/config_service/ConfigServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/account-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/discovery-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/gateway-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/monitor-admin.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/notification-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/statistic-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/lqtweb/discovery_service/DiscoveryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/test/java/com/lqtweb/discovery_service/DiscoveryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/lqtweb/gateway_service/GatewayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/com/lqtweb/gateway_service/GatewayServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/lqtweb/auth_service/config/AuthenticationManagerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/lqtweb/auth_service/config/JwkConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/lqtweb/auth_service/config/ServerSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/lqtweb/auth_service/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/lqtweb/auth_service/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/lqtweb/auth_service/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/auth-service.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/AccountServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/AccountServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/lqtweb/account_service/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/test/java/com/lqtweb/account_service/AccountServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/test/java/com/lqtweb/config_service/ConfigServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistic-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/statistic-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistic-service/src/main/java/com/lqtweb/statistic_service/StatisticServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/statistic-service/src/main/java/com/lqtweb/statistic_service/StatisticServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistic-service/src/main/java/com/lqtweb/statistic_service/controller/StatisticController.java" beforeDir="false" afterPath="$PROJECT_DIR$/statistic-service/src/main/java/com/lqtweb/statistic_service/controller/StatisticController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistic-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/statistic-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/shared/account-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/account-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/shared/monitor-admin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/monitor-admin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/shared/statistic-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/shared/statistic-service.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,48 +50,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/it/Java/Microservice/JMasterIO/NewSpringCloud/monitor-admin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/it/Java/Microservice/JMasterIO/NewSpringCloud/auth-service/src/main/java/com/lqtweb/account_service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it\Java\Microservice\JMasterIO\NewSpringCloud\auth-service\src\main\java\com\lqtweb\account_service" />
       <recent name="D:\it\Java\Microservice\JMasterIO\NewSpringCloud" />
       <recent name="D:\it\Java\Microservice\JMasterIO\NewSpringCloud\account-service\src\main\java\com\lqtweb\account_service\client" />
       <recent name="D:\it\Java\Microservice\JMasterIO\NewSpringCloud\account-service\src\main\java\com\lqtweb\account_service" />
       <recent name="D:\it\Java\Microservice\JMasterIO\NewSpringCloud\statistic-service\src\main\java\com\lqtweb\statistic_service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lqtweb.account_service.entity" />
       <recent name="com.lqtweb.account_service.dto" />
       <recent name="com.lqtweb.account_service.client" />
       <recent name="com.lqtweb.account_service.controller" />
       <recent name="com.lqtweb.account_service.dto.response" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StatisticServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="account-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqtweb.account_service.AccountServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lqtweb.account_service.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,6 +162,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.MonitorAdminApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
       <item itemvalue="Spring Boot.AccountServiceApplication" />
@@ -219,6 +190,10 @@
       <workItem from="1740558210766" duration="626000" />
       <workItem from="1740579422312" duration="3516000" />
       <workItem from="1740837056812" duration="4272000" />
+      <workItem from="1742482292060" duration="913000" />
+      <workItem from="1742828772970" duration="2570000" />
+      <workItem from="1742832409553" duration="1818000" />
+      <workItem from="1742897227557" duration="13261000" />
     </task>
     <servers />
   </component>
