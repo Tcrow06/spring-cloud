@@ -29,16 +29,16 @@ public class AccountController {
     @PostMapping("/account")
     public ApiResponse<AccountResponse> addAccount(@RequestBody AccountRequest request) {
 
-        statisticService.add(new StatisticDTO("Account "+ request.getName() + " is created", new Date()));
+//        statisticService.add(new StatisticDTO("Account "+ request.getName() + " is created", new Date()));
+//
+//        MessageDTO messageDTO = new MessageDTO();
+//        messageDTO.setFrom("tcrow0604@gmail.com");
+//        messageDTO.setTo("quangthinh06112004@gmail.com");
+//        messageDTO.setToName(request.getName());
+//        messageDTO.setSubject("welcome to thinh");
+//        messageDTO.setContent("Luong Quang Thinh");
 
-        MessageDTO messageDTO = new MessageDTO();
-        messageDTO.setFrom("tcrow0604@gmail.com");
-        messageDTO.setTo(request.getUsername());
-        messageDTO.setToName(request.getName());
-        messageDTO.setSubject("welcome to thinh");
-        messageDTO.setContent("Luong Quang Thinh");
-
-        notificationService.sendNotification(messageDTO);
+//        notificationService.sendNotification(messageDTO);
         return ApiResponse.<AccountResponse>builder()
                 .result(accountService.add(request))
                 .build();
